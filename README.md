@@ -46,11 +46,11 @@ docker-compose down
 ### API Endpoints
 -GET /users: Get a list of all users.
 
--GET /users/<id>: Get a user by their ID.
+-GET /users/(id): Get a user by their ID.
 
 -POST /users: Create a new user. (JSON data with name, email, and password required)
 
--PUT /users/<id>: Update an existing user by their ID. (JSON data with name, email, and password required)
+-PUT /users/(id): Update an existing user by their ID. (JSON data with name, email, and password required)
 
--DELETE /users/<id>: Delete a user by their ID.
+-DELETE /users/(id): Delete a user by their ID.
 
